@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class WebConfiguration {
     /**
      * Out	of	the	box,	Spring	Boot	automatically	adds OrderedCharacterEncodingFilter	and	HiddenHttpMethodFilter
-     * this one is convenient Tomcat filter to translate IP behind the load balancer proxy
+     * this one is convenient Tomcat 8 filter to translate IP behind the load balancer proxy
      * @return
      */
     @Bean
